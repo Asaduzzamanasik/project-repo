@@ -1,0 +1,69 @@
+
+      /*---------- font-family     ---------- */
+    @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins&display=swap');
+
+         /*--------- common-style-------------   */
+
+         body{  
+             font-family: 'Poppins', sans-serif;;
+             background: #E5E5E5;
+         }
+
+         main{
+             display:flex ;
+             justify-content: center;
+         }
+
+    .container{
+
+        background-color: #ffffff;
+         width: 870px;
+         padding: 30px;
+       
+
+    }
+
+
+    /*---------- section-tittle--------------- */
+    .section-tittle{
+
+        font-size: 24px;
+        color: #562EFF;
+        margin-top: 3px;
+        
+    }
+
+/* top-players-style */
+
+.players{
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap : 29px ;
+     margin-bottom: 20px;
+}
+
+.player {
+
+    display: flex;
+    align-items: center;
+}
+
+.player img{ 
+
+    width: 56px;
+     height: 56px;
+}
+
+/*----------- player-name-style---------- */
+
+.player-name{
+
+      margin-left: 16px ;
+      font-size: 18px;
+}
+.horgontal{
+
+    border: 1px solid #D1D1D1;}
+    
